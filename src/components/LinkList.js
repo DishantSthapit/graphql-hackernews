@@ -18,7 +18,7 @@ const LinkList = () => {
   `;
 
 
-  const { data, loading } = useQuery(FEED_QUERY);
+  const { data, loading } = useQuery(FEED_QUERY,{onCompleted:console.log('success')});
 
   console.log(data);
 
