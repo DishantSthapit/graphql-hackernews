@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router";
-import { gql, useMutation } from "@apollo/client";
+import { useMutation,gql } from "@apollo/client";
 import { AUTH_TOKEN } from "./constants";
 
 const Login = () => {
